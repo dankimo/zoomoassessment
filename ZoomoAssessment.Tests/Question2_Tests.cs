@@ -7,41 +7,22 @@ namespace ZoomoAssessment.Tests
     [TestFixture]
     public class Question2_Tests
     {
-        [TestCaseSource(nameof(Question2Cases)]
-        public void calculateTriangleArea_RandomSideLengths(int[] testCase)
-        {
-            int a, b, c;
-            a = testCase[0];
-            b = testCase[1];
-            c = testCase[2];
-            var expectedOutcome = 0.25 * Math.Sqrt( (a + b + c) * (-a + b + c) * (a - b + c) * (a + b - c) );
-
-            Assert.AreEqual(expectedOutcome, calculateTriangleArea(testCase));
+        [Test]
+        public void calculateTriangleArea_ValidCase()
+        { 
+            Assert.AreEqual(6, calculateTriangleArea(new int[] { 3, 4, 5 }));
         }
 
         [Test]
         public void calculateTriangleArea_InvalidInput_ThrowsException()
         {
-
+            Assert.Throws<InvalidTriangleException>(() => calculateTriangleArea(new int[] { 1, 2, -3 }));
         }
-
-
-        static int[][] Question2Cases =
+        
+        [Test]
+        public void calculateTriangleArea_InvalidSideLengths_ThrowsException()
         {
-        };
-
-        // set up the question 2 test cases using random numbers
-        static Question2_Tests()
-        {
-            Random rnd = new Random();
-            for (int i = 0; i < 5; i++)
-            {
-                int[] tmpArray = new int[3];
-                for (int j = 0; j < 3; j++)
-                {
-                    tmpArray[i] = rnd.Next();
-                }
-            }
+            Assert.Throws<InvalidTriangleException>(() => calculateTriangleArea(new int[] { 1, 2, 6 }));
         }
         
     }
