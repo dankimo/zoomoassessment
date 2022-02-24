@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomoAssessment", "ZoomoAssessment\ZoomoAssessment.csproj", "{BC2C6019-EA7A-490D-A021-141F127CE6E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoomoAssessment.Tests", "ZoomoAssessment.Tests\ZoomoAssessment.Tests.csproj", "{59002914-D174-4F0E-B47E-BD861B3F36E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC2C6019-EA7A-490D-A021-141F127CE6E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2C6019-EA7A-490D-A021-141F127CE6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2C6019-EA7A-490D-A021-141F127CE6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2C6019-EA7A-490D-A021-141F127CE6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59002914-D174-4F0E-B47E-BD861B3F36E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59002914-D174-4F0E-B47E-BD861B3F36E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59002914-D174-4F0E-B47E-BD861B3F36E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59002914-D174-4F0E-B47E-BD861B3F36E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AB986CC-7C9A-488F-862C-4D1110AAD724}
+	EndGlobalSection
+EndGlobal
