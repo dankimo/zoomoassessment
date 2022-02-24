@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZoomoAssessment.Tests
 {
-    class Question3
+    class Question3_Tests
     {
     }
 }

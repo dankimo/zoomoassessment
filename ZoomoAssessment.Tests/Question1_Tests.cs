@@ -4,7 +4,7 @@ using static ZoomoAssessment.Question1;
 namespace ZoomoAssessment.Tests
 {
     [TestFixture]
-    public class Question1
+    public class Question1_Tests
     {
         [Test]
         public void isNullorEmpty_Null_ReturnsTrue()
