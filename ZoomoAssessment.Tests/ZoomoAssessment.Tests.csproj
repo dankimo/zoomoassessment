@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ZoomoAssessment.Tests</RootNamespace>
-    <AssemblyName>ZoomoAssessment.Tests</AssemblyName>
+    <AssemblyName>Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -48,8 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Question1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question2.cs" />
+    <Compile Include="Question3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
