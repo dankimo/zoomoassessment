@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ZoomoAssessment
 {
-    class Question3
+    public static class Question3
     {
+        public static string[] getUrls(string html)
+        {
+            return new string[];
+        }
     }
 }

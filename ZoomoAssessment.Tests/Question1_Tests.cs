@@ -9,25 +9,25 @@ namespace ZoomoAssessment.Tests
         [Test]
         public void isNullorEmpty_Null_ReturnsTrue()
         {
-            Assert.AreEqual(isNullorEmpty(null), true);
+            Assert.AreEqual(true, isNullorEmpty(null));
         }
 
         [Test]
         public void isNullorEmpty_ContainsCharacter_ReturnsFalse()
         {
-            Assert.AreEqual(isNullorEmpty("a"), false);
+            Assert.AreEqual(false, isNullorEmpty("a"));
         }
 
         [Test]
         public void isNullorEmpty_Empty_ReturnsTrue()
         {
-            Assert.AreEqual(isNullorEmpty(""), true);
+            Assert.AreEqual(true, isNullorEmpty(""), );
         }
 
         [Test]
         public void isNullorEmpty_NullLiteral_ReturnsFalse()
         {
-            Assert.AreEqual(isNullorEmpty("null"), false);
+            Assert.AreEqual(false, isNullorEmpty("null"), );
         }
     }
 }

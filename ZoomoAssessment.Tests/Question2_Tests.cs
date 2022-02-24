@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
 using static ZoomoAssessment.Question2;
 
 namespace ZoomoAssessment.Tests
