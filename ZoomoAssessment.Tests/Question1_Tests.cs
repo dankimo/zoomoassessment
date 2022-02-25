@@ -21,13 +21,13 @@ namespace ZoomoAssessment.Tests
         [Test]
         public void isNullorEmpty_Empty_ReturnsTrue()
         {
-            Assert.AreEqual(true, isNullorEmpty(""), );
+            Assert.AreEqual(true, isNullorEmpty(""));
         }
 
         [Test]
         public void isNullorEmpty_NullLiteral_ReturnsFalse()
         {
-            Assert.AreEqual(false, isNullorEmpty("null"), );
+            Assert.AreEqual(false, isNullorEmpty("null"));
         }
     }
 }
